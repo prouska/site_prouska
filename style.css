@@ -1,0 +1,323 @@
+html,body {
+	
+	margin:0;
+	}
+ 	@font-face {
+	font-family: ostrich sans;
+	src: url(fonts/ostrich-regular.ttf);
+	}
+	@font-face {
+	font-family: ostrich sans rounded;
+	src: url(fonts/ostrich-rounded.ttf);
+	}
+	@font-face {
+	font-family: titillium;
+	src: url(fonts/Titillium-Regular.otf);
+	}
+	@font-face {
+	font-family: anonymous pro;
+	src: url(fonts/Anonymous_Pro.ttf);
+	}
+	@font-face {
+	font-family: latin modern mono 10;
+	src: url:(fonts/lmmono10-italic.otf);
+	}
+
+
+#nav ul {
+	list-style: none;
+	margin:0;
+	clear: both;
+	width: 300px;
+	height:60px;
+	float: right;
+	padding-right: 483px;
+	}
+
+#nav ul li {
+	display: inline-block;
+	
+	padding-top:27px;
+	font-family: ostrich sans;
+	font-weight: regular;
+	font-size:25px;
+	transition: ease-in all 100ms;
+	-moz-transition: ease-in all 100ms;
+	-webkit-transition: ease-in all 100ms;
+	-o-transition: ease-in all 100ms;
+
+}
+
+
+
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+#nav a:hover {
+	color: #000;
+	position: relative;
+	right: 1px;
+	transition: ease-in all 200ms;
+	-moz-transition: ease-in all 200ms;
+	-webkit-transition: ease-in all 200ms;
+	-o-transition: ease-in all 200ms;
+}
+
+
+#nav{
+	 
+	width: 1280px;
+	height: 50px;
+	
+	position: fixed;
+	z-index:99;
+	
+}
+#gram{
+  max-width: 25%;
+  position: relative;
+  float:left; 
+  padding-top: 6px;
+  padding-left: 23px;
+	
+
+	
+}
+
+
+#twit {
+  width:30px;
+  position: relative;
+  float:left; 
+  padding-top: 6px;
+  padding-left: 23px;
+	
+}
+#face {
+max-width: 25%;
+  position: relative;
+  float:left; 
+  padding-top: 6px;
+  padding-left: 23px;	
+}
+
+#header{
+	width:1280px;
+	height: 300px;
+	background-image: url("sampleImg/IMG_5930-140rs.png");
+	background-position: 100% 50%;
+	background-repeat: none;
+}
+#logo {
+	position: fixed;
+	height: 200px;
+	width:200px;
+	margin-left: 548px;
+	margin-top: 85px;
+	z-index:201;
+	
+	
+	}
+
+#left{ 
+	width:50%;
+	position: relative;
+	height: 450px;
+	background-color: #fff;
+	float: left;
+	z-index: -1;
+	}
+#leftWords {
+	position: relative;
+	left:150px;
+	margin-top: 38px;
+	font-family: ostrich sans rounded;
+	font-size: 25px;
+	padding-top: 15px;
+	}
+
+#bnrL{
+	height:40px;
+	width: 305px;
+	
+	position: relative;
+	padding-left: 90px;
+	margin-top: 80px;
+	
+	z-index: 1;
+}
+
+#contentL {
+position: relative;
+height: 250px;
+width:455px;
+	font-family: helvetica;
+	margin-left:70px;
+	
+	
+}
+#contentL p{
+	padding-top: 20px;
+	font-size: 14px;
+	padding-right: 40px;
+}
+
+#bnrR{
+	height:40px;
+	width:305px;
+	position: relative;
+	margin-top: 30px;
+	margin-left:220px;
+	
+}
+
+#contentR{
+	height: 100px;
+	width: 455px;
+	margin-left:175px;
+	margin-top: 70px;
+	padding-top:4px;
+	font-family: helvetica;
+	display: block;
+	position: relative;
+	
+}
+#contentR p{
+	padding-top: 10px;
+	font-size: 14px;
+	display: block;
+	position: relative;
+	
+}
+
+#right{
+	width: 50%;
+	height:450px;
+	background-color: #fff;
+	float: left;
+	
+	
+	       
+}
+#rightWrapper {
+	width: 417px;
+	padding-bottom:5px;
+	height: 190px;
+	background-color: #fff;
+	right:100px;
+	margin-left: 105px;
+	margin-top:105px;
+
+}
+
+
+
+
+
+
+#footer {
+	
+	clear:both;
+	width: 1280px;
+	height:60px;
+	bottom:0px;
+	background-color: #fff;
+	padding-left: 530px;
+	
+}
+#footwrapper{
+	min-height:100%;
+   position:relative;
+}
+
+	
+	
+	
+#prouska {
+ 	position: relative;
+	float: right;
+	width: 85px;
+	padding-top: 22px;
+	right:90px;
+	font-family: titillium;
+	font-weight: regular;
+	
+}
+#leftform{
+	height: 200px;
+	width:300px;
+	margin-left: 200px;
+	margin-top: 60px;
+	float: left;
+}
+#word{
+	margin-top:30px;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+#contact{
+	font-family: titillium;
+	font-size: 16px;
+	float: right;
+	
+	margin-top: 60px;
+	margin-right: 100px;
+}
+
+#contact a{
+	text-decoration: none;
+	color: #000;
+	
+}
+span{
+	font-family: ostrich sans;
+	font-weight: regular;
+	font-size: 20px;
+}
+
+#friend {
+	
+	font-family: titillium;
+	position: absolute;
+	font-size: 40px;
+	margin-top: 40px;
+	left: 500px;
+	
+}
+
+#indexBanner{
+	height:75px;
+	width:300px;
+	position: absolute;
+	left: 487px;
+	font-family: latin modern mono;
+	font-size: 18px;
+	font-style: italic;
+
+}
+#skillsBanner{
+	height:30px;
+	width:250px;
+	position: absolute;
+	left: 515px;
+	font-family:titillium;
+	font-size: 40px;
+	margin-bottom: 15px;
+
+}
+#instafeed{
+	top: 550px;
+	padding-left:118px;
+	height: 300px;
+	width: 1000px;
+	position: absolute;
+	left: 60px;
+	z-index:200;
+	}
