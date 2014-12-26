@@ -4,7 +4,7 @@
 		<head>
 		<link rel= "stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="js/skrollr.min.js"></script>
-		
+		<script type="text/javascript" src="js/instafeed.min.js"></script>
 		</head>
 			<body>
 				<div id="wrapper">
@@ -13,7 +13,7 @@
 						<ul>
 							<a href="indexSite.html"><li>home</li></a>
 							<li>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-							<a href="skills.html" ><li>skills</li></a>
+							<a href="skills.html" ><li>instagram</li></a>
 							<li>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
 							<a href="indexSite.html"><li>blog</li></a>
 							<!-- Link to wordpress blog site currently set to index.html-->
@@ -31,12 +31,12 @@
 						
 						
 					</div>
-					<div id="indexBanner" data-0="opacity:1" data-100="opacity:0">
+					<div id="indexBanner" data-0="opacity:1;" data-100="opacity:0;">
 						<p>"Only those who will risk going too far can possibly find out how far one can go."</p>
 						<p>~ T.S. Elliot</p>
 					</div>
-					<div id="right">
-						
+					<div id="floatBox"data-0="opacity:0;" data-120="opacity:.4;"></div>
+					<div id="instafeed" data-100="top:120%;" data-200="top:97%;"></div>	
 						
 					</div>
 					<div id="footer">
@@ -52,7 +52,17 @@
 					
 				</div>
 				
-				
+				<script type="text/javascript">
+		var userFeed = new Instafeed({
+			get: 'user',
+			limit: 6,
+			userId: 1716713,
+			accessToken: '1716713.467ede5.325f896946d04fd0970298a71508a44b',
+			useHttp: true,
+			template: '<a href="{{link}}" target="_blank"><img src="{{image}}"/></a>'
+		});
+		userFeed.run();
+		</script>
 				<script type="text/javascript">
 					var s = skrollr.init({
 					
